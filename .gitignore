@@ -1,0 +1,16 @@
+﻿bin/
+obj/
+
+.idea/
+
+*.user
+*.suo
+
+*.log
+*.tmp
+
+TestResult.xml
+TestResults/
+
+.DS_Store
+Thumbs.db
