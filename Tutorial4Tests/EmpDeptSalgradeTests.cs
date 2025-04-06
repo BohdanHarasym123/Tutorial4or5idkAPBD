@@ -109,7 +109,7 @@ public class EmpDeptSalgradeTests
     {
         var emps = Database.GetEmps();
         
-        //SelectMany is not needed here, isn't it?
+        //SelectMany is not needed here, is it?
     
         var result = emps.Where(e => e.Comm != null).Select(e => new {EName = e.EName, Comm = e.Comm}); 
         
